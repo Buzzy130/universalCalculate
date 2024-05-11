@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pnumber));
             btnClouse = new Button();
             trackBar1 = new TrackBar();
             label1 = new Label();
@@ -73,7 +74,6 @@
             // trackBar1
             // 
             trackBar1.Location = new Point(202, 189);
-            trackBar1.Maximum = 16;
             trackBar1.Minimum = 2;
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(277, 45);
@@ -245,12 +245,13 @@
             button11.TabIndex = 13;
             button11.Text = "=";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
             button12.BackColor = Color.FromArgb(64, 64, 64);
             button12.FlatStyle = FlatStyle.Popup;
-            button12.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button12.Font = new Font("Segoe UI", 28F, FontStyle.Regular, GraphicsUnit.Point);
             button12.ForeColor = SystemColors.Control;
             button12.Location = new Point(472, 411);
             button12.Name = "button12";
@@ -258,12 +259,13 @@
             button12.TabIndex = 14;
             button12.Text = "+";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
             button13.BackColor = Color.FromArgb(64, 64, 64);
             button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button13.Font = new Font("Segoe UI", 28F, FontStyle.Regular, GraphicsUnit.Point);
             button13.ForeColor = SystemColors.Control;
             button13.Location = new Point(472, 339);
             button13.Name = "button13";
@@ -271,10 +273,13 @@
             button13.TabIndex = 15;
             button13.Text = "-";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
             button14.BackColor = Color.FromArgb(64, 64, 64);
+            button14.BackgroundImage = (Image)resources.GetObject("button14.BackgroundImage");
+            button14.BackgroundImageLayout = ImageLayout.Center;
             button14.FlatStyle = FlatStyle.Popup;
             button14.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button14.ForeColor = SystemColors.Control;
@@ -282,12 +287,14 @@
             button14.Name = "button14";
             button14.Size = new Size(81, 66);
             button14.TabIndex = 16;
-            button14.Text = "*";
             button14.UseVisualStyleBackColor = false;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
             button15.BackColor = Color.FromArgb(64, 64, 64);
+            button15.BackgroundImage = (Image)resources.GetObject("button15.BackgroundImage");
+            button15.BackgroundImageLayout = ImageLayout.Center;
             button15.FlatStyle = FlatStyle.Popup;
             button15.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button15.ForeColor = SystemColors.Control;
@@ -295,12 +302,14 @@
             button15.Name = "button15";
             button15.Size = new Size(81, 66);
             button15.TabIndex = 17;
-            button15.Text = "/";
             button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
             button16.BackColor = Color.FromArgb(64, 64, 64);
+            button16.BackgroundImage = (Image)resources.GetObject("button16.BackgroundImage");
+            button16.BackgroundImageLayout = ImageLayout.Center;
             button16.FlatStyle = FlatStyle.Popup;
             button16.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button16.ForeColor = SystemColors.Control;
@@ -308,8 +317,8 @@
             button16.Name = "button16";
             button16.Size = new Size(81, 66);
             button16.TabIndex = 18;
-            button16.Text = "стереть";
             button16.UseVisualStyleBackColor = false;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
@@ -323,11 +332,12 @@
             button17.TabIndex = 19;
             button17.Text = "C";
             button17.UseVisualStyleBackColor = false;
+            button17.Click += button17_Click;
             // 
             // numericUpDown1
             // 
             numericUpDown1.Location = new Point(444, 211);
-            numericUpDown1.Maximum = new decimal(new int[] { 16, 0, 0, 0 });
+            numericUpDown1.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             numericUpDown1.Minimum = new decimal(new int[] { 2, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(32, 23);
@@ -347,6 +357,7 @@
             button18.TabIndex = 21;
             button18.Text = "CE";
             button18.UseVisualStyleBackColor = false;
+            button18.Click += button18_Click;
             // 
             // button19
             // 
@@ -360,6 +371,7 @@
             button19.TabIndex = 22;
             button19.Text = "MS";
             button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
             // 
             // button20
             // 
@@ -373,6 +385,7 @@
             button20.TabIndex = 23;
             button20.Text = "MR";
             button20.UseVisualStyleBackColor = false;
+            button20.Click += button20_Click;
             // 
             // button21
             // 
@@ -386,6 +399,7 @@
             button21.TabIndex = 24;
             button21.Text = "MC";
             button21.UseVisualStyleBackColor = false;
+            button21.Click += button21_Click;
             // 
             // pnumber
             // 
