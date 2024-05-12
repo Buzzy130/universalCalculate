@@ -19,7 +19,7 @@ namespace universalCalculate
             InitializeComponent();
         }
 
-        TMemory memory = new TMemory();
+        TPNumber memory;
         TANumber recalledNumber;
 
         private void BtnNumberClicked(object sender, EventArgs e)
@@ -361,9 +361,8 @@ namespace universalCalculate
             {
                 // Если строка содержит только число, выполняем необходимые действия
                 TPNumber number = new TPNumber(text, trackBar1.Value);
-                memory.Store(number);
-                recalledNumber = memory.Recall();
-                Console.WriteLine($"Recalled number: {recalledNumber}");
+                memory =number;
+                recalledNumber = memory;
             }
             else
             {
@@ -374,14 +373,16 @@ namespace universalCalculate
 
         private void button20_Click(object sender, EventArgs e)// достать из памяти
         {
-
+            label1.Text += memory.GetNumberAsString();
+            trackBar1.Value = memory.GetSystemBase();
+            numericUpDown1.Value = memory.GetSystemBase();
         }
 
         private void button21_Click(object sender, EventArgs e)//отчистить память
         {
             // Clearing memory
-            memory.Clear();
-            recalledNumber = memory.Recall(); // Should throw exception
+            memory = new TPNumber("0",2);
+            recalledNumber = memory; // Should throw exception
         }
     }
 }

@@ -110,6 +110,7 @@
             button1.TabIndex = 2;
             button1.Text = "7";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -123,6 +124,7 @@
             button2.TabIndex = 3;
             button2.Text = "8";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -136,6 +138,7 @@
             button3.TabIndex = 4;
             button3.Text = "9";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -148,6 +151,7 @@
             button4.Size = new Size(58, 53);
             button4.TabIndex = 5;
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -161,6 +165,7 @@
             button5.TabIndex = 6;
             button5.Text = "4";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -174,6 +179,7 @@
             button6.TabIndex = 7;
             button6.Text = "5";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -187,6 +193,7 @@
             button7.TabIndex = 8;
             button7.Text = "6";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -200,6 +207,7 @@
             button8.TabIndex = 9;
             button8.Text = "CE";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -213,6 +221,7 @@
             button9.TabIndex = 10;
             button9.Text = "1";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -226,6 +235,7 @@
             button10.TabIndex = 11;
             button10.Text = "2";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -239,6 +249,7 @@
             button11.TabIndex = 12;
             button11.Text = "3";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -252,6 +263,7 @@
             button12.TabIndex = 13;
             button12.Text = "C";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -265,6 +277,7 @@
             button13.TabIndex = 14;
             button13.Text = "i";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
@@ -278,6 +291,7 @@
             button14.TabIndex = 15;
             button14.Text = "0";
             button14.UseVisualStyleBackColor = false;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -291,6 +305,7 @@
             button15.TabIndex = 16;
             button15.Text = "+";
             button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -301,6 +316,7 @@
             button16.Size = new Size(58, 53);
             button16.TabIndex = 17;
             button16.UseVisualStyleBackColor = false;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
@@ -314,6 +330,7 @@
             button17.TabIndex = 18;
             button17.Text = "7";
             button17.UseVisualStyleBackColor = false;
+            button17.Click += button17_Click;
             // 
             // button18
             // 
@@ -327,6 +344,7 @@
             button18.TabIndex = 19;
             button18.Text = "8";
             button18.UseVisualStyleBackColor = false;
+            button18.Click += button18_Click;
             // 
             // button19
             // 
@@ -340,6 +358,7 @@
             button19.TabIndex = 20;
             button19.Text = "9";
             button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
             // 
             // button20
             // 
@@ -352,6 +371,7 @@
             button20.Size = new Size(58, 53);
             button20.TabIndex = 21;
             button20.UseVisualStyleBackColor = false;
+            button20.Click += button20_Click;
             // 
             // button21
             // 
@@ -365,6 +385,7 @@
             button21.TabIndex = 22;
             button21.Text = "4";
             button21.UseVisualStyleBackColor = false;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
@@ -378,6 +399,7 @@
             button22.TabIndex = 23;
             button22.Text = "5";
             button22.UseVisualStyleBackColor = false;
+            button22.Click += button22_Click;
             // 
             // button23
             // 
@@ -391,6 +413,7 @@
             button23.TabIndex = 24;
             button23.Text = "6";
             button23.UseVisualStyleBackColor = false;
+            button23.Click += button23_Click;
             // 
             // button24
             // 
@@ -404,6 +427,7 @@
             button24.TabIndex = 25;
             button24.Text = "CE";
             button24.UseVisualStyleBackColor = false;
+            button24.Click += button24_Click;
             // 
             // button25
             // 
@@ -417,6 +441,7 @@
             button25.TabIndex = 26;
             button25.Text = "1";
             button25.UseVisualStyleBackColor = false;
+            button25.Click += button25_Click;
             // 
             // button26
             // 
@@ -430,6 +455,7 @@
             button26.TabIndex = 27;
             button26.Text = "2";
             button26.UseVisualStyleBackColor = false;
+            button26.Click += button26_Click;
             // 
             // button27
             // 
@@ -443,6 +469,7 @@
             button27.TabIndex = 28;
             button27.Text = "3";
             button27.UseVisualStyleBackColor = false;
+            button27.Click += button27_Click;
             // 
             // button28
             // 
@@ -456,6 +483,7 @@
             button28.TabIndex = 29;
             button28.Text = "C";
             button28.UseVisualStyleBackColor = false;
+            button28.Click += button28_Click;
             // 
             // button29
             // 
@@ -469,6 +497,7 @@
             button29.TabIndex = 30;
             button29.Text = "i";
             button29.UseVisualStyleBackColor = false;
+            button29.Click += button29_Click;
             // 
             // button30
             // 
@@ -482,6 +511,7 @@
             button30.TabIndex = 31;
             button30.Text = "0";
             button30.UseVisualStyleBackColor = false;
+            button30.Click += button30_Click;
             // 
             // button31
             // 
@@ -495,6 +525,7 @@
             button31.TabIndex = 32;
             button31.Text = "+";
             button31.UseVisualStyleBackColor = false;
+            button31.Click += button31_Click;
             // 
             // button32
             // 
@@ -505,6 +536,7 @@
             button32.Size = new Size(58, 53);
             button32.TabIndex = 33;
             button32.UseVisualStyleBackColor = false;
+            button32.Click += button32_Click;
             // 
             // panel1
             // 
@@ -530,6 +562,7 @@
             button33.TabIndex = 35;
             button33.Text = "+";
             button33.UseVisualStyleBackColor = false;
+            button33.Click += button33_Click;
             // 
             // button34
             // 
@@ -542,6 +575,7 @@
             button34.Size = new Size(122, 32);
             button34.TabIndex = 36;
             button34.UseVisualStyleBackColor = false;
+            button34.Click += button34_Click;
             // 
             // button35
             // 
@@ -555,6 +589,7 @@
             button35.TabIndex = 37;
             button35.Text = "-";
             button35.UseVisualStyleBackColor = false;
+            button35.Click += button35_Click;
             // 
             // button36
             // 
@@ -567,6 +602,7 @@
             button36.Size = new Size(122, 32);
             button36.TabIndex = 38;
             button36.UseVisualStyleBackColor = false;
+            button36.Click += button36_Click;
             // 
             // complex
             // 

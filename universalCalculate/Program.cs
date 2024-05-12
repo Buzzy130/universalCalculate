@@ -241,6 +241,14 @@ namespace universalCalculate
             this.number = Convert.ToInt32(number, systemBase);
             this.systemBase = systemBase;
         }
+        public int GetSystemBase()
+        {
+            return systemBase;
+        }
+        public string GetNumberAsString()
+        {
+            return Convert.ToString(number, systemBase);
+        }
 
         // Сложение двух чисел того же типа, результат в их системе счисления.
         public override TANumber Add(TANumber other)
